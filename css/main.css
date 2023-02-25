@@ -1,6 +1,6 @@
 * {
-  padding: 0px 0px 0px 0px;
-  margin: 0px 0px 0px 0px;
+  padding: 0;
+  margin: 0;
   box-sizing: border-box;
 }
 form {
@@ -63,8 +63,8 @@ body {
 }
 button,
 input {
-  border: none;
-  outline: none;
+  border: 0;
+  outline: 0;
 }
 .buttons #equal {
   width: 230px;

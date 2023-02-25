@@ -1,7 +1,7 @@
 let show = document.getElementById("display");
 let buttons = Array.from(document.getElementsByClassName("button"));
 
-buttons.map((button) => {
+buttons.forEach((button) => {
   button.addEventListener("click", (evt) => {
     switch (evt.target.innerText) {
       case "=":
